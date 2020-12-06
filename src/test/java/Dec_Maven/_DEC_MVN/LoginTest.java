@@ -30,6 +30,7 @@ public class LoginTest {
 			driver.findElement(By.name("pass")).sendKeys("Password");
 			//*[@id="u_0_b"]
 			driver.findElement(By.xpath("//*[@id='u_0_b']")).click();
+			System.out.println("Adding this maven project in GITHUB ");
 	}
 		@AfterTest
 		public void quiteDriver()
